@@ -1,0 +1,62 @@
+@import 'bootstrap';
+
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  font-size: 40px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  border-width: 5px;
+  border: solid;
+  width: 114.5px;
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+}
+.calculator {
+  font-size: 10px;
+  text-align: right;
+  border-radius: 1em;
+  width: 114.5px;
+  background: rgb(5, 5, 5);
+  padding: 5px 5px 5px 5px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.function {
+  color: white;
+  background: rgb(235, 162, 28);
+  border-radius: 5px;
+}
+.clear {
+  color: white;
+  background: rgb(243, 94, 8);
+  border-radius: 5px;
+}
+.button {
+  color: white;
+  background: rgb(155, 153, 153);
+  border-radius: 5px;
+}
